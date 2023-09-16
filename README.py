@@ -11,7 +11,7 @@ def countdown(minutes):
         seconds -= 1
     os.system('clear')
     print("时间到！")
-
+/111111/
 def main():
     minutes = int(input("请输入专注时长（分钟）："))
     countdown(minutes)
