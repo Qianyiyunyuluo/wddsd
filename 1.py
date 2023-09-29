@@ -14,7 +14,7 @@ def show_world_time():
             print("无效的选择！")
             return
     except ValueError:
-        print("无效的选择！")
+        print("这无效的选择！")
         return
 
     chosen_zone = pytz.timezone(zones[choice - 1])
